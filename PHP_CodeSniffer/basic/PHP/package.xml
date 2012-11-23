@@ -22,12 +22,12 @@
 	<date>2011-01-25</date>
 	<time>00:46:00</time>
 	<version>
-		<release>0.0.5</release>
-		<api>0.0.5</api>
+		<release>0.0.6</release>
+		<api>0.0.6</api>
 	</version>
 	<stability>
-		<release>alpha</release>
-		<api>alpha</api>
+		<release>stable</release>
+		<api>stable</api>
 	</stability>
 	<license uri="http://www.php.net/license/">PHP</license>
 	<notes>
@@ -55,80 +55,4 @@
 		</required>
 	</dependencies>
 	<phprelease />
-	<changelog>
-		<release>
-			<version>
-				<release>0.0.4</release>
-				<api>0.0.4</api>
-			</version>
-			<stability>
-				<release>alpha</release>
-				<api>alpha</api>
-			</stability>
-			<date>2010-06-08</date>
-			<license uri="http://www.php.net/license/">PHP</license>
-			<notes>
-	</notes>
-		</release>
-		<release>
-			<version>
-				<release>0.0.3</release>
-				<api>0.0.3</api>
-			</version>
-			<stability>
-				<release>alpha</release>
-				<api>alpha</api>
-			</stability>
-			<date>2010-08-29</date>
-			<license uri="http://www.php.net/license/">PHP</license>
-			<notes>
-Added ruleset.xml for upcomming versions of CodeSniffer.
-	</notes>
-		</release>
-		<release>
-			<version>
-				<release>0.0.3</release>
-				<api>0.0.3</api>
-			</version>
-			<stability>
-				<release>alpha</release>
-				<api>alpha</api>
-			</stability>
-			<date>2010-06-08</date>
-			<license uri="http://www.php.net/license/">PHP</license>
-			<notes>
-Activated and disabled some sniffs. See Changelog.
-	</notes>
-		</release>
-		<release>
-			<version>
-				<release>0.0.2</release>
-				<api>0.0.2</api>
-			</version>
-			<stability>
-				<release>alpha</release>
-				<api>alpha</api>
-			</stability>
-			<date>2010-06-05</date>
-			<license uri="http://www.php.net/license/">PHP</license>
-			<notes>
-Disabled several Sniffs which do not make sense.
-	</notes>
-		</release>
-		<release>
-			<version>
-				<release>0.0.1</release>
-				<api>0.0.1</api>
-			</version>
-			<stability>
-				<release>alpha</release>
-				<api>alpha</api>
-			</stability>
-			<date>2010-05-10</date>
-			<license uri="http://www.php.net/license/">PHP</license>
-			<notes>
-Initial release
-	</notes>
-		</release>
-	</changelog>
 </package>
