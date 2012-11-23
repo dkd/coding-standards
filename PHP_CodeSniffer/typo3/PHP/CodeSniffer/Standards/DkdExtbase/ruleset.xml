@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<ruleset name="DkdExtbase">
+	<description>dkd TYPO3 Extbase Coding Standard</description>
+
+	<!-- include TYPO3 PHP_CodeSniffer -->
+	<rule ref="DkdTYPO3">
+		<!-- reactivate for TYPO3 version 4.5 -->
+		<exclude name="TYPO3.Files.LowercasedFilename"/>
+		<exclude name="TYPO3.PHP.XClass"/>
+		<exclude name="DkdCollection.NamingConventions.ValidClassName"/>
+	</rule>
+
+	<rule ref="TYPO3.Files.EncodingUtf8"/>
+
+	<exclude-pattern>Tests/*</exclude-pattern>
+</ruleset>

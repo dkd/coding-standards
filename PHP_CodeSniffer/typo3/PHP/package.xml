@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+	http://pear.php.net/dtd/tasks-1.0.xsd
+	http://pear.php.net/dtd/package-2.0
+	http://pear.php.net/dtd/package-2.0.xsd">
+	<name>PHP_CodeSniffer_Standards_DkdTYPO3</name>
+	<channel>pear.dkd.de</channel>
+	<summary>dkd TYPO3 Coding Standards</summary>
+	<description>dkd TYPO3 Coding Standards</description>
+	<lead>
+		<name>Timo Webler</name>
+		<user>dkd-webler</user>
+		<email>timo.webler@dkd.de</email>
+		<active>yes</active>
+	</lead>
+	<developer>
+		<name>Christian Trabold</name>
+		<user>dkd-trabold</user>
+		<email>info@christian-trabold.de</email>
+		<active>yes</active>
+	</developer>
+	<date>2011-10-20</date>
+	<time>10:00:00</time>
+	<version>
+		<release>0.0.9</release>
+		<api>0.0.9</api>
+	</version>
+	<stability>
+		<release>stable</release>
+		<api>stable</api>
+	</stability>
+	<license uri="http://www.gnu.org/licenses/gpl.html">GPL</license>
+	<notes>
+Add missing DkdCollection sniffs to DkdTYPO3
+	</notes>
+	<contents>
+		<dir baseinstalldir="PHP" name="/">
+			<!-- dkd Collection  -->
+			<file baseinstalldir="PHP" name="CodeSniffer/Standards/DkdCollection/ruleset.xml" role="php" />
+			<file baseinstalldir="PHP" name="CodeSniffer/Standards/DkdCollection/Sniffs/Classes/ClassDeclarationSniff.php" role="php" />
+			<file baseinstalldir="PHP" name="CodeSniffer/Standards/DkdCollection/Sniffs/CodeAnalysis/EmptyStatementSniff.php" role="php" />
+			<file baseinstalldir="PHP" name="CodeSniffer/Standards/DkdCollection/Sniffs/CodeAnalysis/ForbiddenFunctionsSniff.php" role="php" />
+			<file baseinstalldir="PHP" name="CodeSniffer/Standards/DkdCollection/Sniffs/CodeAnalysis/SuperglobalKeywordSniff.php" role="php" />
+			<file baseinstalldir="PHP" name="CodeSniffer/Standards/DkdCollection/Sniffs/Commenting/ClassCommentSniff.php" role="php" />
+			<file baseinstalldir="PHP" name="CodeSniffer/Standards/DkdCollection/Sniffs/Commenting/FileCommentSniff.php" role="php" />
+			<file baseinstalldir="PHP" name="CodeSniffer/Standards/DkdCollection/Sniffs/Commenting/VariableCommentSniff.php" role="php" />
+			<file baseinstalldir="PHP" name="CodeSniffer/Standards/DkdCollection/Sniffs/FileStructure/CopyrightCommentSniff.php" role="php" />
+			<file baseinstalldir="PHP" name="CodeSniffer/Standards/DkdCollection/Sniffs/NamingConventions/UpperCaseConstantNameSniff.php" role="php" />
+			<file baseinstalldir="PHP" name="CodeSniffer/Standards/DkdCollection/Sniffs/NamingConventions/ValidClassNameSniff.php" role="php" />
+			<file baseinstalldir="PHP" name="CodeSniffer/Standards/DkdCollection/Sniffs/Strings/ConcatenationSpacingSniff.php" role="php" />
+			<!-- dkd TYPO3 standard -->
+			<file baseinstalldir="PHP" name="CodeSniffer/Standards/DkdTYPO3/ruleset.xml" role="php" />
+			<!-- dkd ecurity standard -->
+			<file baseinstalldir="PHP" name="CodeSniffer/Standards/Security/ruleset.xml" role="php" />
+			<!-- dkd Extbase standard -->
+			<file baseinstalldir="PHP" name="CodeSniffer/Standards/DkdExtbase/ruleset.xml" role="php" />
+		</dir>
+	</contents>
+	<dependencies>
+		<required>
+			<php>
+				<min>5</min>
+			</php>
+			<pearinstaller>
+				<min>1.4.0</min>
+			</pearinstaller>
+			<package>
+				<name>PHP_CodeSniffer</name>
+				<channel>pear.php.net</channel>
+				<min>1.3.0RC2</min>
+			</package>
+			<package>
+				<name>PHPCS_TYPO3_SniffPool</name>
+				<channel>pear.typo3.org</channel>
+				<min>0.0.3</min>
+			</package>
+			<package>
+				<name>PHPCS_TYPO3v4_Standard</name>
+				<channel>pear.typo3.org</channel>
+				<min>0.0.3</min>
+			</package>
+		</required>
+	</dependencies>
+	<phprelease />
+</package>
