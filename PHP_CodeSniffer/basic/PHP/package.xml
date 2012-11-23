@@ -8,19 +8,19 @@
 	<summary>dkd Coding Standards</summary>
 	<description>dkd Coding Standards</description>
 	<lead>
-		<name>Christian Trabold</name>
-		<user>dkd-trabold</user>
-		<email>christian.trabold@dkd.de</email>
-		<active>yes</active>
-	</lead>
-	<lead>
 		<name>Timo Webler</name>
 		<user>dkd-webler</user>
 		<email>timo.webler@dkd.de</email>
 		<active>yes</active>
 	</lead>
-	<date>2011-01-25</date>
-	<time>00:46:00</time>
+	<developer>
+		<name>Sascha Egerer</name>
+		<user>dkd-egerer</user>
+		<email>sascha.egerer@dkd.de</email>
+		<active>yes</active>
+	</developer>
+	<date>2012-11-23</date>
+	<time>00:00:00</time>
 	<version>
 		<release>0.0.6</release>
 		<api>0.0.6</api>
@@ -36,7 +36,6 @@
 	<contents>
 		<dir baseinstalldir="PHP" name="/">
 			<file baseinstalldir="PHP" name="CodeSniffer/Standards/Dkd/ruleset.xml" role="php" />
-			<file baseinstalldir="PHP" name="CHANGELOG" role="doc" />
 		</dir>
 	</contents>
 	<dependencies>
