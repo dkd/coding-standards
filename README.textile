@@ -1,0 +1,18 @@
+h1. PHP Coding Standards by dkd
+
+This repository contains php sniffs for TYPO3, based on the "Pear package PHP_CodeSniffer":http://pear.php.net/package/PHP_CodeSniffer/.
+
+It also delivers a ruleset for "PHPMD - PHP Mess Detector":http://phpmd.org/.
+
+h2. Contribution
+
+* "dkd Internet Service GmbH (dkd Internet Service GmbH)":http://www.dkd.de
+* "Timo Webler":https://github.com/websi
+* "Sascha Egerer":https://github.com/sascha-egerer
+* "Rolf Hofmann":https://github.com/rolfos
+* "Christoph Gerold":https://github.com/cgerold
+* "Christian Trabold":https://github.com/ctrabold
+
+h2. License
+
+See LICENSE.
